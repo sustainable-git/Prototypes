@@ -1,9 +1,16 @@
 # FoodApp
 
-
 - 기간 : 3일
 - 설명 : 오늘의 메뉴 추천!
 
+<br>
+
+## Demo
+
+<div align=center>
+<img width=480 src="./imageFiles/01.gif"> <img width=480 src="./imageFiles/02.gif">
+</div>
+    
 <br>
 
 ## 특징
