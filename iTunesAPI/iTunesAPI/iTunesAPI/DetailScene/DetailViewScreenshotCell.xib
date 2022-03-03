@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DetailViewScreenshotCell" customModule="iTunesAPI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="548"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="548"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slowmo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1Ja-bI-Mjq">
+                        <rect key="frame" x="0.0" y="-0.5" width="375" height="549"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1Ja-bI-Mjq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2VY-BJ-8T0"/>
+                <constraint firstAttribute="trailing" secondItem="1Ja-bI-Mjq" secondAttribute="trailing" id="JM2-vg-RTZ"/>
+                <constraint firstAttribute="bottom" secondItem="1Ja-bI-Mjq" secondAttribute="bottom" id="OJE-9n-HUy"/>
+                <constraint firstItem="1Ja-bI-Mjq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wE5-kp-gex"/>
+            </constraints>
+            <size key="customSize" width="375" height="548"/>
+            <connections>
+                <outlet property="image" destination="1Ja-bI-Mjq" id="n9H-Ll-3ef"/>
+            </connections>
+            <point key="canvasLocation" x="84.782608695652186" y="118.52678571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="slowmo" catalog="system" width="128" height="122"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iTunesAPI
+
+  Created by shin jae ung on 2022/01/10.
+  
+*/
+
+"searchTitle" = "검색";
+"searchPlaceHolder" = "게임, 앱, 스토리 등";
+"userRating" = "별점";

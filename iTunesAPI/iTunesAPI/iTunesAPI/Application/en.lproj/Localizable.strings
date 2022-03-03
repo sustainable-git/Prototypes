@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iTunesAPI
+
+  Created by shin jae ung on 2022/01/10.
+  
+*/
+
+"searchTitle" = "Search";
+"searchPlaceHolder" = "Games, Apps, Stories and More";
+"userRating" = "Stars";
