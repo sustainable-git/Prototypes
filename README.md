@@ -1,5 +1,11 @@
 # Prototypes
 
+## HowManySmiles
+- [바로가기](./HowManySmiles)
+<div align=center>
+<img src="./HowManySmiles/Demo.gif">
+</div>
+
 ## SpotLight
 
 - [바로가기](./SpotLight)
